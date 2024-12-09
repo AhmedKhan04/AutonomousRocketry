@@ -1,16 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Mar 14 13:24:50 2020
 
-Dynamic plot of the MPU6050 angles. How to use:
-    - Upload the 'getAngle.ino' code to the Arduino
-    - Modify the port name below according to your own port
-    - Run this script
-
-Requires the Python libraries: serial, matplotlib, numpy
-
-@author: rfetick
-"""
 
 from serial import Serial
 import matplotlib.pyplot as plt
